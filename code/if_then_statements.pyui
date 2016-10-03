@@ -1,0 +1,89 @@
+[
+  {
+    "selected" : false,
+    "frame" : "{{0, 0}, {1024, 768}}",
+    "class" : "View",
+    "nodes" : [
+      {
+        "selected" : false,
+        "frame" : "{{34, 48}, {454, 32}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "6D3301BD-4FE7-46F0-9F5B-E6123B93CDB4",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "enter a random number from 1-10",
+          "name" : "label1",
+          "font_size" : 18
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{158, 113}, {200, 32}}",
+        "class" : "TextField",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "placeholder" : "0",
+          "font_name" : "<System>",
+          "frame" : "{{412, 368}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "DD41A90E-E3F0-438E-8466-6BEF3B08EECE",
+          "alignment" : "center",
+          "autocorrection_type" : "default",
+          "name" : "number_textfield",
+          "font_size" : 17
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{215, 211}, {80, 32}}",
+        "class" : "Button",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "action" : "check_touch_up_inside",
+          "frame" : "{{472, 368}, {80, 32}}",
+          "title" : "check",
+          "uuid" : "6A38DBAA-FC74-4905-9C7B-66BFF3387B7E",
+          "class" : "Button",
+          "name" : "check_button",
+          "font_size" : 15
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{34, 262}, {454, 32}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "9175FEA0-C2BC-438B-AF36-E07C48C64DC9",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "",
+          "name" : "output_label",
+          "font_size" : 18
+        }
+      }
+    ],
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    }
+  }
+]
